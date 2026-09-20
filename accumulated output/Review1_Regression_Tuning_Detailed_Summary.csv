@@ -1,0 +1,5 @@
+Model,Search_Method,R2_Baseline,Tuned_R2,R2_Improvement,RMSE_Baseline,Tuned_RMSE,MAE_Baseline,Tuned_MAE,Best_Parameters
+Random Forest Regression,RandomizedSearchCV,0.963167,0.961795,-0.001372,797.6028,812.3210,430.2351,438.4860,"{'n_estimators': 100, 'min_samples_split': 2, 'max_depth': None}"
+Gradient Boosting Regression,RandomizedSearchCV,0.960959,0.966299,+0.005340,821.1617,762.9409,454.6824,416.4928,"{'n_estimators': 150, 'max_depth': 3, 'learning_rate': 0.15}"
+Support Vector Regression,RandomizedSearchCV,-0.089739,0.914803,+1.004542,4338.3943,1213.0520,2670.4644,624.4021,"{'kernel': 'linear', 'gamma': 'auto', 'C': 100}"
+KNN Regression,GridSearchCV,0.909563,0.913619,+0.004057,1249.8040,1221.4521,679.4490,680.5895,"{'n_neighbors': 7}"
